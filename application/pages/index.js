@@ -4,8 +4,7 @@ import {
   ThirdwebNftMedia,
   Web3Button,
 } from "@thirdweb-dev/react";
-
-const contractAddress = "0xFA4811420E8502719F86DD04473eB2B7dFB6C828";
+import { contractAddress } from "../const/yourDetails";
 
 export default function Home() {
   const { contract } = useContract(contractAddress);
